@@ -17,10 +17,11 @@ const readline = require('readline');
 
 const solution = (N) => {
   let cnt = 0;
+
   while (N >= 5) {
-    cnt += N / 5;
-    N /= 5;
+    cnt += Math.floor(N / 5);
+    N = Math.floor(N / 5);
   }
 
-  return Math.ceil(cnt);
+  return Math.floor(cnt);
 };
