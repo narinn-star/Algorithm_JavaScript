@@ -24,9 +24,9 @@ const solution = (S) => {
 
   S.forEach((v) => {
     if (v === v.toUpperCase()) {
-      res = v.toLowerCase();
+      res += v.toLowerCase();
     } else if (v === v.toLowerCase()) {
-      res = v.toUpperCase();
+      res += v.toUpperCase();
     }
   });
 
