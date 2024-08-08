@@ -13,6 +13,8 @@ Explanation
 2. right.next가 null일때까지 한 칸씩 옮기기 (리스트 끝까지 가는 것)
 3. left.next 노드를 없애주기 위해서 next 를 next.next로 바꿔주기
 4. 처음에 root가 [0, ....]이기 때문에 next부터 리턴해주기
+
+js로 처음 풀어본 Node문제 너무 어려우엏영
 */
 /**
  * @param {ListNode} head
