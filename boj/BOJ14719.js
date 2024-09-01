@@ -8,23 +8,26 @@ let input = [];
 
 const solution = (input) => {
   const [height, width] = input[0];
-  const arr = [...input[1]];
+  const block = [...input[1]];
+  let sum = 0;
 
-  const block = Array.from({ length: height }, () => Array(width).fill(0));
+  for (let i = 1; i < block.length; i++) {
+    let l = 0;
+    let r = 0;
 
-  for (let i = 0; i < width; i++) {
-    let count = arr[i];
-    for (let j = height - 1; j >= height - count; j--) {
-      if (j >= 0) {
-        block[j][i] = 1;
-      }
+    for (let j = 0; j < i; j++) {
+      l = Math.max(l, block[j]);
+    }
+    for (let j = i + 1; j < width; j++) {
+      r = Math.max(r, block[j]);
+    }
+
+    if (block[i] < l && block[i] < r) {
+      sum += Math.min(l, r) - block[i];
     }
   }
 
-  for (const row of block) {
-  }
-
-  //return block.map((row) => row.join(',')).join('\n');
+  return sum;
 };
 
 rl.on('line', function (line) {
