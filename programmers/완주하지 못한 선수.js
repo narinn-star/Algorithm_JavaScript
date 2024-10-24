@@ -1,3 +1,16 @@
+/**
+ * Topics: 해시
+ *
+ * for ... of : 배열
+ * for ... in : 객체
+ */
+
+/**
+ * @param {string[]} participant
+ * @param {string[]} completion
+ * @returns {string}
+ */
+
 function solution(participant, completion) {
   const map = new Map();
 
