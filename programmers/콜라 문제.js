@@ -1,4 +1,7 @@
 /**
+ * Topic: 연습문제
+ */
+/**
  * @param {number} a
  * @param {number} b
  * @param {number} n
