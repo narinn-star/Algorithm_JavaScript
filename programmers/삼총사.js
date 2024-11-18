@@ -19,7 +19,7 @@ function solution(number) {
   return cnt;
 }
 
-// 3중 loop가 아닌 방법으로 푸는 방법을 찾아봤더니 ,,
+// 3중 loop가 아닌 방법으로 푸는 방법을 찾아봤더니 ,, 🫠
 function solution2(number) {
   let cnt = 0;
 
