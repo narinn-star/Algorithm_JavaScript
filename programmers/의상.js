@@ -1,5 +1,7 @@
 /**
  * Topic: 해시
+ *
+ * hasOwnProperty:
  */
 
 /**
