@@ -1,4 +1,7 @@
 /**
+ * Topic: 코딩테스트 입문
+ */
+/**
  *
  * @param {number} num
  * @param {number} total
