@@ -1,7 +1,7 @@
 /**
- * @param {string} s
- * @param {number} k
- * @return {number}
+ * Topics: Hash Table, String, Sliding Window
+ *
+ *
  */
 /**
  * @param {string} s
